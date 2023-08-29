@@ -1,0 +1,205 @@
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+#header-sec{
+min-height: 100vh;
+background: url(image2/1st.jpg);
+background-repeat: no-repeat no-repeat;
+background-size:cover ;
+clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+
+
+}
+.nav-class{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 5rem;
+    padding: 0rem 1rem;
+    color: white;
+}
+.nav-class span{
+   color: rgb(93, 46, 99) ;
+}
+.text{
+    color:white;
+    margin-top: 15px;
+    font-size: 50px;
+    margin-left:300px;}
+.nav-class ul{
+      list-style: none;
+    }
+.nav-class li{
+        
+        display: inline-block;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+    }
+.nav-class li a{
+       color:white;
+        text-decoration: none;
+    }
+    .One{
+        background-color:black;
+        color: white;
+    }
+    .Two{
+        background-color:black;
+        color: white;
+    }
+    .Three{
+        background-color:black;
+        color: white;
+    }
+    .One{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;}
+    .right1{
+        flex-basis: 60%;
+        
+     }
+     .right1 img{
+         width: 50%;
+         margin-top: 3px;
+        margin-left: 250px;
+        
+}
+         .left1{
+            flex-basis: 40%;}
+
+            .left1 p{
+                margin:auto;
+                font-size: 20px;
+                text-align: justify;
+                margin-left: 70px;
+             }
+             
+            .left1 h2{
+                margin:auto;
+                font-size: 30px;
+                text-align: justify;
+                margin-left: 70px;
+             }
+             .Two{
+                display: flex;
+                align-items: center;
+                  flex-wrap: wrap;}
+                .left2{
+             flex-basis: 60%;}
+                
+                
+             
+             .left2 img{
+                 width: 50%;
+                 margin-top: 3px;
+                margin-left: 150px;
+                clip-path: ellipse(47% 50% at 50% 50%);}
+                .right2{
+                    flex-basis: 40%;}
+        
+                    .right2 p{
+                        margin:auto;
+                        font-size: 20px;
+                        text-align: justify;
+                       margin-right: 150px;
+                     }
+                     .right2 h2{
+                        margin:auto;
+                        font-size: 30px;
+                        text-align: justify;
+                       margin-right: 150px;
+                     }
+           .Three{
+            width: 100%;
+            display: flex;
+            float:left;
+
+        }
+        .app{
+            margin-left: 450px;
+        }
+        .Three figure{
+            margin-left: 100px;
+            margin-top: 70px;
+            
+
+            
+
+
+        }
+        .Three figcaption{
+            margin-left: 120px;
+            margin-top: 5px;
+            font-size: 20px;
+            
+            
+
+            
+
+        }
+
+        .Three img{
+          
+clip-path: circle(50% at 50% 50%);
+            
+
+            
+
+        }
+        
+        
+        #footer{
+            background-color:black;
+           color: white;
+        }
+        .footer-div img{
+            margin-top: 20px;
+            margin-left: 340px;
+            
+        }
+        .footer-div figcaption{
+            
+              
+                margin-top: 10px;
+                font-size: 20px;
+            margin-left: 550px;
+          ;
+            
+        }
+        .c-btn{
+            background:rgb(93, 46, 99);
+            color:white;
+           
+            outline: none;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding: 10px;}
+            .d-btn{
+                background:rgb(93, 46, 99);
+                color:white;
+               
+                outline: none;
+                margin-top: 10px;
+                margin-left: 65px;
+                padding: 10px;}
+                .footer-div h2{
+                    margin-left: 550px;
+                }
+                #footer2{
+                    background:rgb(93, 46, 99);
+                    color: rgb(255, 255, 255);
+                    padding: 20px;
+                    display: flex;
+                    font-size: 15px;
+                    justify-content:space-around;
+                   
+                }
+                #footer2 h3{
+                   
+                   margin-left: 5px;
+                }
+                
+
